@@ -346,20 +346,4 @@ font-weight: bold;
 cursor: pointer;
 }
 
-.content {
-    padding-left: 0px;
-    width: 100%;
-    }
-
-.heading , .metadata, .introductory_textn, .continuation, .heading1,
-.metadata1, .introductory_textn1, .continuation1 {
-    padding-left: 50px;
-    width: 100%;
-   }
-.metadata, .metadata1    {cursor: pointer;}
-
-}
-
-    
-         
 
