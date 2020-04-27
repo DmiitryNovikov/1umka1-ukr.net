@@ -1,0 +1,830 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+}
+.left_side {
+  background: url(cdbd0c47af31faef18a7e26921219dcc.jpg) no-repeat;
+  width: 25%;
+  height: 100vh;
+  float: left;
+  position: fixed;
+}
+
+.left_side_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 120%;
+  color: grey;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.right_side {
+  width: 75%;
+  height: 100%;
+  float: right;
+}
+
+.navigation {
+  background-color: white;
+  width: 100%;
+  height: 6vh;
+  position: fixed;
+  padding-left: 80px;
+  padding-right: 80px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+  padding: 7px;
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+ul li:hover {
+  background: rgba(252, 251, 251, 0.041);
+}
+ul li:hover ul {
+  display: block;
+}
+ul li ul {
+  position: absolute;
+  width: 100%;
+  display: none;
+}
+ul li ul li {
+  background: rgba(252, 251, 251, 0.9);
+  display: block;
+}
+
+.content {
+  width: 100%;
+  height: 92vh;
+}
+
+.heading {
+  width: 100%;
+  height: 25vh;
+  padding-left: 80px;
+  padding-top: 0px;
+  padding-top: 80px;
+  padding-bottom: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 80px;
+  font-style: italic;
+  padding-right: 50px;
+}
+
+.metadata {
+  width: 100%;
+  height: 5vh;
+}
+
+.introductory_textn {
+  width: 100%;
+  height: 20vh;
+  padding-left: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  padding-right: 50px;
+}
+
+.continuation {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-right: 50px;
+}
+
+.content1 {
+  background-color: white;
+  width: 100%;
+  height: 92vh;
+  padding-right: 50px;
+}
+
+.heading1 {
+  width: 100%;
+  height: 20vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 80px;
+  font-style: italic;
+  padding-right: 50px;
+}
+
+.metadata1 {
+  width: 100%;
+  height: 5vh;
+}
+
+.introductory_textn1 {
+  width: 100%;
+  height: 20vh;
+  padding-left: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  padding-right: 50px;
+}
+
+.continuation1 {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-right: 50px;
+  background-color: white;
+}
+
+.left_side_top {
+  width: 100%;
+  height: 8vh;
+}
+
+.left_side_centrt {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-size-adjust: 100px;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 450%;
+  cursor: pointer;
+}
+
+.left_side_bottom {
+  width: 100%;
+  height: 32vh;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-style: oblique;
+}
+
+IMG.fig {
+  float: right;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 30%;
+  height: 30%;
+}
+
+IMG.fig1 {
+  float: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 30%;
+  height: 30%;
+}
+
+.fragment {
+  color: gray;
+}
+
+.metadata {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.metadata a {
+  text-decoration: none;
+  color: gray;
+  font-size: 15px;
+  padding: 30px;
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  padding-top: 70px;
+  cursor: pointer;
+}
+
+.metadata1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.metadata1 a {
+  text-decoration: none;
+  color: gray;
+  font-size: 15px;
+  padding: 30px;
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.imajesblockmain {
+  width: 100%;
+  height: auto;
+  background-color: rgb(236, 236, 236);
+  padding: 10px;
+}
+
+.imajesblock {
+  width: 100%;
+  height: 100%;
+  padding: 20px 50px 20px 80px;
+  background-color: white;
+}
+
+.imajesblock img {
+  width: auto;
+  height: 280px;
+  padding: 5px;
+}
+
+.imajesblock p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+.imajesblock h1 {
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+.hnyga {
+  width: 100%;
+  height: 60px;
+  background-color: #ececec;
+  text-align: center;
+  border-color: black;
+  font-size: 30px;
+}
+
+.hnyga1 {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.threeblockswithpictures {
+  width: 100%;
+  height: 360px;
+  background-color: #ececec;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.picturesblock {
+  width: 217px;
+  height: 300px;
+  background-color: white;
+  border-color: black;
+}
+
+.picturesblock p {
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+  padding-left: 3px;
+  padding-top: 3px;
+  font-size: 15px;
+}
+
+p.boldtext {
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: black;
+  padding-bottom: 10px;
+}
+
+.line {
+  text-align: center; /* выравнивание заголовка по центру обертки */
+  width: 40%; /* ширина обертки. На самом деле для фиксированной верстки можно использовать и px, но лучше сразу адаптировать под разные устройства, т.к. это, что называется, тренди :-) */
+  margin: 0 auto; /* выравнивание обертки по центру документа */
+  overflow: hidden; /* прячем линии за границами обертки, чтобы в случае изменения ширины экрана линии не выходили за ее пределы */
+}
+.line span {
+  position: relative;
+}
+
+.line span:before {
+  display: block; /* делаем псевдоэлемент блоком для последующего работы с ним, как с простым div'ом */
+  width: 400px; /* устанавливаем ширину линию. Можно использовать произвольную ширину */
+  content: ""; /* позволяет вставлять генерируемое содержание в текст страницы, которое первоначально в тексте отсутствует */
+  position: absolute; /* абсолютное позиционирование для управления линиями */
+  border-bottom: 1px solid #000; /* бордер псевдо дива, т.е. сама линия */
+  top: 90%; /* позиционирование по вертикали */
+  right: 160px; /* позиционирование по горизонтали */
+}
+
+.line span:after {
+  display: block;
+  width: 400px;
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #000;
+  top: 90%;
+  left: 160px;
+}
+
+.conteinervideo {
+  width: 100%;
+  height: 260px;
+  background-color: white;
+  padding-left: 80px;
+  padding-top: 30px;
+}
+
+.leftimg {
+  float: left;
+}
+
+p.videotext {
+  padding-left: 230px;
+  padding-right: 20px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+.four_blocks {
+  width: 100%;
+  height: 310px;
+  background-color: #ececec;
+  padding-top: 25px;
+  padding-left: 15px;
+}
+
+.first_block,
+.second_block,
+.third_block,
+.fourth_block {
+  padding: 0px;
+  border: 0px;
+  width: 48%;
+  height: 49%;
+  display: inline-block;
+}
+
+.fa-amilia,
+.fa-arrow-alt-circle-down,
+.fa-adjust,
+.fa-adversal {
+  font-size: 50px;
+  padding-left: 10px;
+  float: left;
+}
+
+.textfirst_block {
+  padding-left: 80px;
+}
+
+.futer {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(46, 45, 45);
+}
+
+.futer {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(46, 45, 45);
+}
+
+.top_futer {
+  width: 100%;
+  height: 350px;
+  background-color: rgb(46, 45, 45);
+}
+
+.bottom_futer {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(46, 45, 45);
+}
+.top_futer_text {
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  vertical-align: middle;
+}
+
+.top_futer_logo {
+  width: 100%;
+  height: 100px;
+  font-size: 32px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.top_futer {
+  padding: 0px;
+  border: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.first_column {
+  width: 33%;
+  height: 100%;
+  padding: 15px 15px 10px 15px;
+  padding-left: 60px;
+}
+
+.first_column_bottom {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  font-size: 16px;
+}
+
+.first_column_img {
+  float: left;
+}
+.first_column_bottom h3 {
+  padding-left: 60px;
+  font-style: italic;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+.first_column_bottom p {
+  padding-left: 60px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.first_column_bottom h3:active {
+  color: white;
+}
+
+.first_column_bottom p:active {
+  color: white;
+}
+
+.first_column_bottom h3:hover {
+  color: white;
+}
+.first_column_bottom p:hover {
+  color: white;
+}
+
+.second_column {
+  color: white;
+  width: 25%;
+  height: 100%;
+  padding-top: 5px;
+  padding: 15px 15px 10px 15px;
+}
+
+hr {
+  border: none; /* Убираем границу */
+  background-color: rgba(255, 255, 255, 0.288); /* Цвет линии */
+  color: rgba(255, 255, 255, 0.315); /* Цвет линии для IE6-7 */
+  height: 1px; /* Толщина линии */
+}
+
+p.cite {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  size: 20px;
+}
+.cite a {
+  color: white;
+}
+
+.cite a:hover {
+  color: white;
+}
+
+.cite a:active {
+  color: yellow;
+}
+
+.thethird_column {
+  width: 33%;
+  height: 100%;
+  padding: 15px 15px 10px 15px;
+}
+
+.futer_main_text {
+  color: white;
+  padding-bottom: 15px;
+}
+
+/* If less than 900px the right side panel goes up */
+@media screen and (max-width: 900px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .left_side {
+    width: 100%;
+    height: 30vh;
+    padding: 0px;
+    background: none;
+    top: 0;
+    left: 0;
+    background: black;
+    z-index: 4;
+  }
+
+  .left_side_top {
+    display: none;
+  }
+  .left_side_bottom {
+    display: none;
+  }
+
+  .left_side_centrt {
+    width: 100%;
+    height: 30vh;
+    padding: 0px;
+    background: none;
+    top: 0;
+    left: 0;
+    background: black;
+    z-index: 4;
+  }
+
+  .right_side {
+    width: 100%;
+    height: 175vh;
+    position: relative;
+    top: 30vh;
+  }
+
+  .navigation {
+    padding-left: 50px;
+    padding-right: 0px;
+    background-color: white;
+    width: 100%;
+    height: 6vh;
+    position: fixed;
+    top: 30vh;
+    height: auto;
+  }
+
+  .navigation a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 11px;
+    padding: 5px;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .content {
+    padding-left: 0px;
+    width: 100%;
+  }
+
+  .heading,
+  .metadata,
+  .introductory_textn,
+  .continuation,
+  .heading1,
+  .metadata1,
+  .introductory_textn1,
+  .continuation1 {
+    padding-left: 50px;
+    width: 100%;
+    height: auto;
+  }
+
+  .metadata,
+  .metadata1 {
+    cursor: pointer;
+  }
+
+  .heading {
+    padding-top: 25px;
+  }
+
+  .metadata a,
+  .metadata1 a {
+    padding-top: 5px;
+    padding: 10px;
+  }
+
+  p.videotext {
+    font-size: 16px;
+  }
+}
+
+
+/* If less than 900px the right side panel goes up */
+@media screen and (max-width: 700px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    .left_side {
+      width: 100%;
+      height: 30vh;
+      padding: 0px;
+      background: none;
+      top: 0;
+      left: 0;
+      background: black;
+      z-index: 4;
+    }
+  
+    .left_side_top {
+      display: none;
+    }
+    .left_side_bottom {
+      display: none;
+    }
+  
+    .left_side_centrt {
+      width: 100%;
+      height: 30vh;
+      padding: 0px;
+      background: none;
+      top: 0;
+      left: 0;
+      background: black;
+      z-index: 4;
+    }
+  
+    .right_side {
+      width: 100%;
+      height: 175vh;
+      position: relative;
+      top: 30vh;
+    }
+  
+    .navigation {
+      padding-left: 50px;
+      padding-right: 0px;
+      background-color: white;
+      width: 100%;
+      height: 6vh;
+      position: fixed;
+      top: 30vh;
+      height: auto;
+    }
+  
+    .navigation a {
+      text-decoration: none;
+      color: #000000;
+      font-size: 9px;
+      padding: 5px;
+      display: inline-block;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  
+    .content {
+      padding-left: 0px;
+      width: 100%;
+    }
+  
+    .heading,
+    .metadata,
+    .introductory_textn,
+    .continuation,
+    .heading1,
+    .metadata1,
+    .introductory_textn1,
+    .continuation1 {
+      padding-left: 50px;
+      width: 100%;
+      height: auto;
+      font-size: 14px;
+    }
+  
+    .metadata,
+    .metadata1 {
+      cursor: pointer;
+    }
+  
+    .heading,
+    .heading1 {
+      padding-top: 25px;
+      font-size: 12px;
+
+    }
+  
+    .metadata a,
+    .metadata1 a {
+      padding-top: 5px;
+      padding: 10px;
+      font-size: 12px;
+    }
+
+    .imajesblock h1 {
+        font-size: 24px;
+    }
+  
+    p.videotext {
+      font-size: 14px;
+       }
+
+    .imajesblock p {
+        font-size: 14px;
+    }
+    .hnyga {
+        font-size: 25px;
+    }
+    .four_blocks {
+        font-size: 14px;
+    }
+    .futer_main_text {
+        font-size: 12px;
+    }
+
+    .first_column_bottom h3,
+    .first_column_bottom p,
+    p.cite {
+        font-size: 13px;
+    }
+
+    .top_futer_text {
+        font-size: 12px;
+    }
+  }
+  
